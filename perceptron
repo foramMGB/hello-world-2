@@ -1,0 +1,9 @@
+import numpy as np
+from numpy.random import seed
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
+from matplotlib import rcParams
+# set the plot figure size
+rcParams["figure.figsize"] = 10, 5
+%matplotlib inline
